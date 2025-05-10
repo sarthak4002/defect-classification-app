@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <title>Classification Result</title>
+</head>
+<body class="bg-dark text-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="#">Defect Classifier</a>
+    </nav>
+    <div class="container mt-5">
+        <div class="card bg-secondary text-light shadow-lg">
+            <div class="card-body text-center">
+                <h1>Classification Result</h1>
+                <h2 class="mt-4">The equipment is: <strong>{{ result }}</strong></h2>
+                <h4 class="mt-2">Prediction Probability: <strong>{{ probability }}%</strong></h4>
+                <div class="mt-4">
+                    <a href="/" class="btn btn-secondary">Go Back</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
