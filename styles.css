@@ -1,0 +1,52 @@
+body {
+    background-color: #121212; /* Dark background */
+    color: #ffffff; /* Light text color */
+}
+
+h1, h2 {
+    color: #bb86fc; /* Light purple for headings */
+}
+
+.card {
+    border-radius: 15px; /* Rounded corners */
+}
+
+.btn-primary {
+    background-color: #6200ea; /* Primary button color */
+    border: none; /* Remove border */
+}
+
+.btn-primary:hover {
+    background-color: #3700b3; /* Darker shade on hover */
+}
+
+.btn-secondary {
+    background-color: #03dac5; /* Secondary button color */
+    border: none; /* Remove border */
+}
+
+.btn-secondary:hover {
+    background-color: #018786; /* Darker shade on hover */
+}
+
+.form-control-file {
+    color: #fff; /* Change file input text color */
+}
+
+.form-control-file::file-selector-button {
+    background-color: #6200ea; /* Custom button color for file input */
+    color: white; /* Button text color */
+    border: none; /* Remove border */
+}
+
+.form-control-file::file-selector-button:hover {
+    background-color: #3700b3; /* Darker shade on hover */
+}
+
+.navbar {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Shadow for navbar */
+}
+
+.card {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Card shadow */
+}
